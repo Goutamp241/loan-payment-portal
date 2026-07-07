@@ -54,12 +54,8 @@ App runs at `http://localhost:5173`
 
 | Customer | Mobile | Card last 4 | Notes |
 |----------|--------|-------------|-------|
-| Goutam Patel | 9876543210 | 4821 | Default test account |
-| Goutam Kumar | 7296851901 | 1526 | ₹24,500 due |
-| Sweety Patel | 7296851902 | 1527 | ₹12,300 due |
-| Ramesh Patel | 9660683388 | 1568 | ₹32,100 due |
-| Sita Devi | 9666833890 | 1569 | ₹8,900 due |
-| Rajesh Ghanchi | 9660683381 | 1567 | Zero balance (no payment required) |
+| Goutam Patel | 9123456780 | 4821 | Default test account |
+
 
 **Simulated 1Pay OTP:** `1562` (success)
 
