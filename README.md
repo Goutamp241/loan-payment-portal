@@ -2,6 +2,13 @@
 
 End-to-end loan repayment web application for ABC Bank — identity verification, encrypted loan details, simulated 1Pay payment gateway, and receipt generation.
 
+## Live links
+
+- **Frontend (Vercel):** [https://loan-payment-portal-sand.vercel.app](https://loan-payment-portal-sand.vercel.app)
+- **Backend (Render):** [https://loan-payment-portal.onrender.com](https://loan-payment-portal.onrender.com)
+- **API Health Check:** [https://loan-payment-portal.onrender.com/health](https://loan-payment-portal.onrender.com/health)
+- **Figma Design:** [https://www.figma.com/community/file/1656631652177558354/loan-repayment-portal-design](https://www.figma.com/community/file/1656631652177558354/loan-repayment-portal-design)
+
 ## Tech stack
 
 | Layer | Technology |
@@ -54,7 +61,8 @@ App runs at `http://localhost:5173`
 
 | Customer | Mobile | Card last 4 | Notes |
 |----------|--------|-------------|-------|
-| Goutam Patel | 9123456780 | 4821 | Default test account |
+| Goutam Patel | 9876543210 | 4821 | Default test account |
+| Rajesh Ghanchi | 9660683381 | 1567 | Zero balance (no payment required) |
 
 
 **Simulated 1Pay OTP:** `1562` (success)
@@ -75,8 +83,10 @@ npm run db:check         # List customers & loans
 
 ## Deployment
 
-- **Backend (Render):** Root directory `Backend`, build `npm install && npm run build`, start `npm start`
-- **Frontend (Vercel):** Root directory `Frontend`, framework Vite
+- **Backend (Render):** [https://loan-payment-portal.onrender.com](https://loan-payment-portal.onrender.com)  
+  Root directory `Backend`, build `npm install && npm run build`, start `npm start`
+- **Frontend (Vercel):** [https://loan-payment-portal-sand.vercel.app](https://loan-payment-portal-sand.vercel.app)  
+  Root directory `Frontend`, framework Vite
 - Set `FRONTEND_URL` on Render to your Vercel URL for CORS
 - Set `VITE_API_BASE_URL` on Vercel to your Render API URL
 
